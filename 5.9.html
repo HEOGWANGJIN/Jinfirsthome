@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5월9일</title>
+    <style>
+        p{
+            background-color: aliceblue;
+            color: brown;
+            font: 10px;
+            font-family: "Lucida Console";
+            font-weight:500;
+            }
+            span{
+                font-size: 15px;
+                text-decoration: underline;  
+                display: block;
+            }
+        li{
+            color: blue;
+            border-color: green;
+            border-style: solid;
+            border-width: 1px;
+            display: inline
+        }
+        .그린{
+            color: green;
+        } /* .은 클래스를 묶어서 서식한다.*/
+        #hgreen{
+            color: red;
+        } /* #은 class중에서도 id로 따로 서식가능 클래스의 클래스 */
+        li:hover{
+            color:gray;
+        } /* li:hover는 마우스 가리키면 색이 변함 */
+        /*  순서에 의해 서식이 제일 아래에 있는게 우선순위가 높음 여기선hover */
+    </style>
+</head>
+<body>
+    <h1>텍스트와 폰트</h1> <hr />
+
+    <p>AliceBlue 바탕색에 Brown 색의 "Lucida console" 폰트로 10px 크기이고 <span>저는 이보다 1.5배 큽니다</span> </p>
+    <ul>
+        <li class="그린">css</li>
+        <li class="그린" id="hgreen">html</li>
+        <li>javascript</li>
+    </ul>
+</body>
+</html>
